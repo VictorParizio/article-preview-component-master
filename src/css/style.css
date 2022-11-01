@@ -1,0 +1,141 @@
+body {
+    background-color: var(--body);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.component {
+    display: flex;
+    border-radius: 10px;
+}
+
+.component .img {
+    background: url(../images/drawers.jpg) no-repeat;
+    background-size: 340px 280px;
+    height: 280px;
+    width: 280px;
+    border-radius: 10px 0 0 10px;
+}
+
+.component .info {
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    width: 450px;
+    padding: 30px 40px;
+    border-radius: 0 10px 10px 0;
+}
+
+.component .info .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--media);
+    line-height: 25px;
+}
+
+.component .info .text {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 20px;
+    padding: 15px 0;
+}
+
+.component .info .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.component .info .container .user {
+    display: flex;
+    gap: 20px;
+}
+
+.component .info .container .user .avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.component .info .container .user .name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--media);
+    margin: 3px 0;
+}
+
+.component .info .container .user .date {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text);
+}
+
+.component .info .container .btn-share {
+    background-color: var(--body);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    color: var(--btn);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.component .info .container .btn-share:hover {
+    background-color: var(--btn);
+    color: var(--body);
+}
+
+.component .info .container .box {
+    position: relative;
+}
+
+.component .info .container .share .midias {
+    background-color: var(--media);
+    position: absolute;
+    top: -80px;
+    left: -110px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px 35px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: var(--text);
+    box-shadow: 0 5px 10px rgba(43, 49, 80, 0.3);
+}
+
+.component .info .container .share .midias a {
+    font-size: 2.2rem;
+    color: var(--body);
+    transition: 0.2s ease-in-out;
+}
+
+.component .info .container .share .midias a:hover {
+    color: var(--btn);
+}
+
+.mostrar {
+    display: none;
+}
+
+.attribution {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.3rem;
+    color: var(--text);
+}
+
+.attribution a {
+    color: var(--media);
+    transition: 0.2s ease-in-out;
+}
+
+.attribution a:hover {
+    color: var(--btn);
+}

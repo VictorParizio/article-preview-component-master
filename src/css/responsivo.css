@@ -1,0 +1,48 @@
+@media (max-width: 775px) {
+    .component {
+        flex-direction: column;
+    }
+
+    .component .img {
+        background-size: 330px 240px;
+        height: 200px;
+        width: 330px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .component .info {
+        height: 295px;
+        width: 330px;
+        padding: 35px 30px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .component .info .title {
+        font-size: 1.5rem;
+    }
+
+    .component .info .text {
+        padding: 10px 0;
+    }
+
+    .component .info .container {
+        margin-top: 10px;
+    }
+
+    .component .info .container .share .btn-share {
+        position: absolute;
+        left: -30px;
+        top: -4px;
+    }
+
+    .component .info .container .share .midias {
+        top: -20px;
+        left: -300px;
+        border-radius: 0 0 10px 10px;
+        padding: 15px 102px 15px 40px;
+    }
+
+    .component .info .container .share {
+        position: relative;
+    } 
+}
